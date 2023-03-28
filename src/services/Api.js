@@ -3,7 +3,7 @@ import axios from "axios";
 
 class Api {
   axios = axios.create({
-    baseURL: "http;//localhost:5000",
+    baseURL: "http://localhost:5000",
   });
 
   async get(url,data) {

@@ -1,0 +1,19 @@
+.navbar-container {
+    width: 100%;
+    background-color: #d2c3fa;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    height: 140px;
+
+  .search-form-container {
+    padding: 0 15px;
+  }
+
+  .logo-container{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
