@@ -7,12 +7,15 @@ const PostsContext = createContext({
 
 const PostsProvider = ({ children }) => {
     const [postsData, setPostsData] = useState([]);
+    const [isLoading, setLoading] = useState(false);
 
     return (
         <PostsContext.Provider
             value={{
                 postsData,
                 setPostsData,
+                isLoading,
+                setLoading,
             }}
         >
             {children}

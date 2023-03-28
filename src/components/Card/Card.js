@@ -1,14 +1,14 @@
 import React from "react";
 import "./Card.css";
-const Card = ({ title, imageLink, postLink }) => {
+const Card = ({ title, image, link }) => {
     const clickHandler = () => {
-        window.open(postLink, "_blank");
+        window.open("https://www.reddit.com" + link, "_blank");
     };
     return (
         <div class="card">
             <div class="img">
-                {imageLink ? (
-                    <img src={imageLink} alt="post" height="65" />
+                {image ? (
+                    <img src={image} alt="post" height="65" />
                 ) : (
                     <img
                         src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Reddit_icon.svg/1280px-Reddit_icon.svg.png"
