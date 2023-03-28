@@ -10,6 +10,7 @@
     -webkit-animation: bounce05 var(--duration) linear infinite;
     animation: bounce05 var(--duration) linear infinite;
     width: 10%;
+    transform: scale(1.5);
   }
   
   .typewriter .slide {
