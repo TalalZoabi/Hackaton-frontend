@@ -1,0 +1,86 @@
+.card {
+    min-width: 15rem;
+    min-height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #004450;
+    transition: 1s ease-in-out;
+    clip-path: polygon(30px 0%, 100% 0, 100% calc(100% - 30px), calc(100% - 30px) 100%, 0 100%, 0% 30px);
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-left: 2rem;
+  }
+  
+  .card span {
+    font-weight: bold;
+    color: #ECE7B2;
+    text-align: center;
+    display: block;
+    padding-top: 1em;
+    font-size: 1em;
+  }
+  
+  .card .info {
+    font-weight: 400;
+    color: #ECE7B2;
+    display: block;
+    text-align: center;
+    padding-top: 0.1em;
+    font-size: 1.2rem;
+    margin: 1em;
+    margin-top: 1em;
+  }
+  
+  .card .img {
+    border-radius: 1rem;
+    margin: auto;
+    margin-top: 1rem;
+  }
+
+
+
+  
+  
+  .card .share {
+    text-align: center;
+    margin-top: 1.8em;
+  }
+  
+  .card a {
+    color: white;
+    transition: .4s ease-in-out;
+  }
+  
+  .card a:hover {
+    color: rgb(36, 116, 221);
+  }
+  
+  .card button {
+    padding: 0.8em 1.7em;
+    display: block;
+    margin: auto;
+    border-radius: 25px;
+    border: none;
+    margin-top: 2em;
+    font-weight: bold;
+    background: #91CEC4;
+    color: #004450;
+    transition: .4s ease-in-out;
+  }
+  
+  .card button:hover {
+    cursor: pointer;
+    background: #ECE7B2;
+    color: #004450;
+
+  }
+
+  img {
+
+
+    margin-left: auto;
+    margin-top: 10%;
+    border-radius: 10px;
+  }
+
