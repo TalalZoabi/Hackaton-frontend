@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useContext } from "react";
+import { useGlobalContext } from "../../context/PostsContext";
 import Card from "../Card/Card";
 import "./Post.css";
 
-const Post = ({ arrayOfPosts }) => {
+const Post = () => {
+    const { postsData } = useGlobalContext();
     const arr = [
         {
             title: "Post 1",
@@ -31,7 +33,7 @@ const Post = ({ arrayOfPosts }) => {
     ];
     return (
         <div className="post">
-            {(!arrayOfPosts ? arr : arrayOfPosts).map((el) => (
+            {(!postsData ? arr : postsData).map((el) => (
                 <Card
                     title={el.title}
                     postLink={el.postLink}
