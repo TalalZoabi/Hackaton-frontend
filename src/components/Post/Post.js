@@ -4,7 +4,7 @@ import Card from "../Card/Card";
 import "./Post.css";
 
 const Post = () => {
-    const { postsData } = useGlobalContext();
+    const { postsData, setPostsData } = useGlobalContext();
     const arr = [
         {
             title: "Post 1",
@@ -31,6 +31,7 @@ const Post = () => {
                 "https://www.reddit.com/r/RedditforBusiness/comments/113yfmq/marketing_learnings_from_super_bowl_lvii/",
         },
     ];
+    setPostsData(arr);
     return (
         <div className="post">
             {(!postsData ? arr : postsData).map((el) => (
