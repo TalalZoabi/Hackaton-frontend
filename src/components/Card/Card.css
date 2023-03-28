@@ -1,6 +1,5 @@
 .card {
-    /* min-width: 15rem; */
-    min-height: 20rem;
+    height: 20rem;
     width: 15rem;
     display: flex;
     flex-direction: column;
@@ -11,6 +10,7 @@
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
     margin-left: 2rem;
+    padding: 0 10px;
   }
   
   .card span {
@@ -28,9 +28,8 @@
     display: block;
     text-align: center;
     padding-top: 0.1em;
+    padding-bottom: 2rem;
     font-size: 1.2rem;
-    margin: 1em;
-    margin-top: 1em;
   }
   
   .card .img {
@@ -63,7 +62,6 @@
     margin: auto;
     border-radius: 25px;
     border: none;
-    margin-top: 2em;
     font-weight: bold;
     background: #91CEC4;
     color: #004450;
@@ -83,5 +81,13 @@
     margin-left: auto;
     margin-top: 10%;
     border-radius: 10px;
+  }
+
+  .info {
+    display:  flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
   }
 

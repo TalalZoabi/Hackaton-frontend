@@ -10,7 +10,7 @@ const Welcome = () => {
     return (
         <div className="welcome-page">
             {isLoading && <Loader />}
-            <Post />
+            {!isLoading && <Post />}
         </div>
     );
 };
