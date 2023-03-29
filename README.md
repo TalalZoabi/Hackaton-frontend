@@ -1,70 +1,84 @@
-# Getting Started with Create React App
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Roboto&weight=900&size=40&duration=3000&pause=2000&color=36A3AB&center=true&width=1000&height=90&lines=Reddit+Positive+Scraper;React+App)](https://git.io/typing-svg)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<hr>
 
-## Available Scripts
+![plot](./screenshots/diagram.png) 
 
-In the project directory, you can run:
+## We Were given a task by a AppleSeeds to build an app that uses a scraper with the theme of coexistence:
 
-### `npm start`
+-  The app should scrape data from another page.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+-  The app should be promoting or helping the idea of coexisting.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+-  Bonus to upload the app the AWS.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Prerequisites - Frontend local
+* Clone the repo
+* Install / make sure you have node v16+ ->  [Download from the official website](https://nodejs.org/en )
+* Have all the package.json dependencies install by using this command in the root directory of the project
+```bash
+> npm install
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* Make sure you have a `running and operational` backend!
+* Small cup of coffee 😉☕
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## How To Use The App
 
-### `npm run eject`
+- Press the search bar up on the navbar and click on it
+- Insert whatever it is you want to search posts about
+- Wait for the backend to get all data you need filtered and ready to go.
+- Pick a post from one of the posts cards and enjoy! 😀
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## App demo link 
+[Reddit Positive Scraper Link](https://appleseeds-reddit-possitive-scrapper.netlify.app/)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<br>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# Screenshots:
+![plot](./screenshots/screenshot1.png) 
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![plot](./screenshots/screenshot2.png) 
 
-## Learn More
+<br>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# App responsiveness:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<br>
 
-### Code Splitting
+![plot](./screenshots/screenshot3.png) 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+<br>
+<br>
 
-### Advanced Configuration
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Roboto&weight=900&size=24&duration=100&pause=2000&color=36A3AB&repeat=false&width=500&height=34&lines=Deployment)](https://git.io/typing-svg)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+In order to run the app locally you will need to install all the dependencies from the package.json file.  
+Run the command ``` npm install ``` to install all the dependencies, after it's done you can run ``` npm start``` to start the app locally in ```localhost:3000```
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+<br>
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Summary
+By going through all the steps and making sure you have the prerequisites you:
+- Deployed the app locally with all the dependencies needed.
+- Can make calls to the backend and handle the responses from it.
+- Should be able to view filtered posts.
+
+<br>
+
+## `Group members`:
+
+- Elad -           Fullstack
+- Talal -          TL and Backend
+- Artur -          Fullstack
+- Mohamad Hassan - Backend
+- Waleed -         Backend
