@@ -4,7 +4,7 @@
 
 ![plot](./screenshots/diagram.png) 
 
-## We Were given a task by a AppleSeeds to build an app that uses a scraper with the theme of coexistence:
+## We Were given a task from AppleSeeds to build an app that uses a scraper with the theme of coexistence:
 
 -  The app should scrape data from another page.
 
