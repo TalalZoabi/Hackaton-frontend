@@ -58,6 +58,15 @@
 <br>
 <br>
 
+# Agile Methodology:
+Trello is a project management tool that allows users to create and organize tasks in a visual manner. By creating small, manageable tasks and organizing them on Trello boards, the project team can have a clear overview of the project's progress and ensure that everyone is on the same page. Additionally, Trello helps to facilitate communication between team members and prevent large issues by allowing for easy identification and resolution of any potential concerns early on. By implementing a separation of concerns and utilizing Trello, our team was able to work efficiently and effectively towards the project's goals.
+
+<br>
+
+![plot](./screenshots/screenshot4.png) 
+
+<br>
+
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Roboto&weight=900&size=24&duration=100&pause=2000&color=36A3AB&repeat=false&width=500&height=34&lines=Deployment)](https://git.io/typing-svg)
 
 In order to run the app locally you will need to install all the dependencies from the package.json file.  
